@@ -10,8 +10,8 @@ export default class UselessTextInput extends Component {
   render() {
     return (
       <TextInput
-        style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-        onChangeText={(text) => this.setState({text})}
+        style={{ height: 40, borderColor: 'gray', borderWidth: 1 }}
+        onChangeText={text => this.setState({ text })}
         value={this.state.text}
       />
     );
